@@ -13,7 +13,7 @@
 }
 
 # You can replace :<port> with a domain such as "example.com", to where only requests from that host will be routed. 
-example.com {
+:4363 {
 	root * /home/container/public
 	file_server
 	encode zstd gzip
